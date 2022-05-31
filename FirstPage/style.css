@@ -973,18 +973,166 @@ h2{
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-top: 25px;
 }
 .questions1 h4:nth-child(2){
     margin-left: 90px;
+    padding-top: 0px;
 }
 .questions1 img{
     background: none;
     position: absolute;
     left: 250px;
+    
 }
 
 .questions2{
     width: 445px;
+    background: none;
     margin-right: 0px;
-    background: #D978AC;
+}
+
+.questions2 input{
+    background: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase; 
+    border: 1px solid #43FFD2;
+    padding: 19px 362px 20px 20px;
+    margin-bottom: 10px;
+    width: 445px;
+    height: 60px;
+}
+
+.container-input{
+    background: none;
+    margin-top: 274px;
+}
+
+.questions2 input:last-child{
+    width: 445px;
+    height: 60px;
+    padding-top:19px;
+    background: none;
+}
+
+
+.questions2 img{
+    position: absolute;
+    top: 83px;
+    right: 0px;
+
+}
+
+.questions2 p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    right: 0px;
+    top: 136px;
+}
+
+.questions2 button
+{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000000;
+background: #43FFD2;
+border: none;
+padding: 16px 93px;
+}
+
+
+.questions2 button:hover{
+    background-color: #7D2253;
+    color: white;
+
+}
+.questions2 button:active{
+    background: #7D2253;
+    box-shadow: inset 0px 0px 10px #01281F;
+}
+
+.leaf{
+    background: none;
+}
+
+.leaf img{
+    position: absolute;
+    background: none;
+    top:0px;
+}
+
+.footer{
+    width: 1440px;
+    position: relative;
+    height: 666px;
+    background: none;
+}
+
+.footer img{
+    position:absolute;
+    background: none;
+}
+
+.footer img:first-child{
+    right: 0px;
+}
+
+.footer img:nth-child(2){
+    top:165px;
+    right: 0px;
+}
+
+.footer img:nth-child(3){
+    top: 265px;
+}
+
+.footer h6{
+    background: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 296px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #0A1717;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+
+.foot-inst{
+    position: relative;
+    background: none;
+    display: flex;
+    width: 730px;
+    margin-left: 180px;
+    margin-top:-250px;
+}
+
+.foot-inst img{
+    padding-right: 30px;
+    background: none;
+}
+
+.foot-inst img:hover{
+    transform: scale(1.2);
 }
