@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Cormorant-Light';
+  src: url('Cormorant-Light.eot');
+  src: url('Cormorant-Light.eot?#iefix') format('embedded-opentype'),
+       url('Cormorant-Light.svg#Cormorant-Light') format('svg'),
+       url('Cormorant-Light.ttf') format('truetype'),
+       url('Cormorant-Light.woff') format('woff'),
+       url('Cormorant-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
