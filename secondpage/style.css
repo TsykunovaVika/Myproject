@@ -29,12 +29,17 @@ ul li{
     display: flex;
     align-items: center;
     background: black;
+    width: 1440px;
     height: 80px;
 }
 
 
-.header ul {
-    display: flex;
+.header ul{
+    background: black;
+}
+
+.header ul li {
+    float: left ;
     background: black;
 
 }
@@ -43,10 +48,11 @@ ul li{
     margin-right: 69px;
     background: none;
     margin-left: 173px;
+    margin-top:22px;
 }
 
 .header li{
-    margin-right: 50px;
+    margin-right: 25px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -69,6 +75,10 @@ ul li{
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.header a:hover{
+    color: #D978AC;
 }
 
 .tel-head{
