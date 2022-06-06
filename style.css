@@ -690,6 +690,31 @@ h2{
 
 }
 
+.slider-item-1 span, button{
+    background: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.slider-item-1 p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
 .slider-item p{
     font-family: 'Oswald';
     font-style: normal;
@@ -701,6 +726,12 @@ h2{
     color: #FFFFFF;
     margin-top: 10px;
 
+}
+
+.slider-item-1 button{
+    border: 0.5px solid #FFFFFF;
+    padding: 16px 76px;
+    margin-top: 20px;
 }
 
 .slider-item button{
@@ -1271,7 +1302,6 @@ padding: 16px 93px;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-bottom: 20px;
-    
 
 }
 
