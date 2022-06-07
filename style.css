@@ -196,6 +196,8 @@ h2{
 .contacts1{
     float: right;
     background: none;
+    margin-right: -115px;
+
 
 }
 
@@ -209,6 +211,7 @@ h2{
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #43FFD2;
+    position: absolute;
 }
 
 .contacts1 a:hover{
@@ -231,7 +234,7 @@ h2{
 }
 
 .contacts1 p:last-child{
-    margin-right: -130px;
+    margin-right: 174px;
     margin-top: 4px;
 }
 
@@ -1227,6 +1230,8 @@ padding: 16px 93px;
     margin-top: 30px;
 }
 
+
+
 .foot1{
     width: 244px;
     background:none;
@@ -1311,6 +1316,18 @@ padding: 16px 93px;
 
 .foot4 a h6{
     padding-bottom: 10px;
+}
+
+.foot4 a h6{
+    padding-bottom: 10px;
+}
+
+.foot4 a h6:hover{
+    color: #D978AC;
+}
+
+.foot5 a:hover{
+    color: #D978AC;
 }
 
 
