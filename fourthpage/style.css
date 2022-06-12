@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    background: #282828;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.contaiiner{
+    width: 1440px;
+    margin: 0 auto;
+    background: #282828;
+}  
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}  
+
+.wrapper img{
+    position: absolute;
+    background: none;
+}
+
+.ellipse44{
+    right: 0px;
+}
+
+.ellipse32{
+    top: 890px;
+}
+
+.s-flower{
+    right: 0px;
+}
+
+.ellipse52{
+    right: 0px;
+    top: 500px;
+}
+
+.main{
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    background: none;
+    height: 2000px;
+}
+
+.header{
+    height: 60px;
+    background: none;
+}
+
+.header ul{
+    display: flex;
+    background: none;
+    margin-left: 60px;
+
+}
+
+.logo1{
+    background: none;
+    position: absolute;
+    top:-5px;
+    left: 0px;
+}
+
+.header li{
+    margin-right: 50px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: none;
+    list-style-type: none ;
+    margin-top: 20px;
+}
+
+.header a{
+    background: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header a:hover{
+    color: #D978AC;
+}
+
+
+.block-catalog{
+    width: 920px;
+    height: 534px;
+    position: relative;
+    top:115px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+h1{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: none;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+h2{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 121px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 285px;
+    background: none;
+}
+
+.block-catalog p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 285px;
+    background: none;
+    padding-bottom: 59px;
+
+}
+
+.block-catalog div button{
+    border: 0.5px solid #FFFFFF;
+    border-radius: 40px;
+    background: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 11px 16px;
+    margin-bottom: 10px;
+    background: none;
+    margin-right: 4px;
+}
+
+.block-buttons{
+    margin-left: 20px;
+    background: none;
+}
+
+.main-catalog{
+    margin-top: 196px;
+    background: none;
+}
+
+.filters{
+    width: 255px;
+    height: 818px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+.filters form{
+    background: none;
+}
+
+.filters p{
+    background: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #43FFD2;
+    padding-bottom: 8px;
+}
+
+.filters input{
+    background: none;
+}
+
+.filters label{
+    background: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+
+.form1{
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.form2{
+    padding-top: 20px;
+    padding-left: 16px;
+}
+.form3{
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.slider{
+    background: none;
+    padding-top: 20px;
+    padding-left: 16px;
+    width: 215px;
+    position: relative;
+}
+
+output{
+    background: none;
+    color: #43FFD2;
+    position: absolute;
+    left: 5px;
+    top: 40px;
+}
+
+#fader{
+    position: relative;
+    left: 3px;
+    top: 10px;
+    width: 215px;
+
+}
+
+#fader::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #43FFD2;
+}
+
+.slider p:last-child{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.form4{
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.filters button{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 16px 54px;
+    background: none;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+button:hover{
+    color: #040A0A;
+    background: #43FFD2;
+}
+
+.block-buttons button:hover{
+    color: #040A0A;
+    background: #43FFD2;
+}
+.block-buttons button:focus{
+    color: #040A0A;
+    background: #43FFD2;
+}
