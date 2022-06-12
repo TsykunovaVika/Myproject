@@ -47,12 +47,29 @@ a{
     top: 500px;
 }
 
+
+.ellipse41{
+    right: 0px;
+    bottom: -3258px;
+}
+
+.ellipse42{
+    right: 0px;
+    bottom: -3258px;
+}
+
+
+.ellipse43{
+    left: 0px;
+    bottom: -3258px;
+}
+
 .main{
     width: 1110px;
     margin: 0 auto;
     position: relative;
     background: none;
-    height: 2000px;
+
 }
 
 .header{
@@ -105,6 +122,50 @@ a{
     color: #D978AC;
 }
 
+.street{
+    position: absolute;
+    right: 0px;
+    background: none;
+    top: 20px;
+    float: right;
+}
+
+.street a{
+    position:absolute ;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #43FFD2;
+}
+
+.street a:first-child{
+    margin-left: 84px;
+}
+
+.secondA{
+    margin-left: 115px;
+}
+
+
+.street p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: none;
+}
+
+.street p:last-child{
+    margin-left:174px;
+}
 
 .block-catalog{
     width: 920px;
@@ -114,6 +175,7 @@ a{
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(20px);
     border-radius: 20px;
+    background: none;
 }
 
 h1{
@@ -267,12 +329,6 @@ output{
 
 }
 
-#fader::-webkit-slider-thumb {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #43FFD2;
-}
 
 .slider p:last-child{
     font-family: 'Oswald';
@@ -318,4 +374,306 @@ button:hover{
 .block-buttons button:focus{
     color: #040A0A;
     background: #43FFD2;
+}
+
+.main-catalog{
+    display: flex;
+}
+
+.compilation{
+    width: 825px;
+    padding-left: 30px;
+
+    background:none ;
+}
+
+.compilation1 div img{
+    padding-right: 30px;
+    background: none;
+}
+
+
+.compilation1{
+    display: flex;
+    background: none;
+    padding-bottom: 60px;
+}
+
+.compilation1 div{
+    background: none;
+}
+.compilation p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: none;
+    padding-bottom: 10px;
+}
+
+.compilation span{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: none;
+
+}
+
+.compilation button{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0.5px solid #FFFFFF;
+    padding: 16px 93px;
+    margin-top: 20px;
+    background: none;
+}
+
+.compilation2 div img{
+    padding-right: 30px;
+    background: none;
+}
+
+
+.compilation2{
+    display: flex;
+    background: none;
+    padding-bottom: 60px;
+}
+
+.compilation2 div{
+    background: none;
+}
+
+
+.compilation3 div img{
+    padding-right: 30px;
+    background: none;
+}
+
+
+.compilation3{
+    display: flex;
+    background: none;
+    padding-bottom: 60px;
+}
+
+.compilation3 div{
+    background: none;
+}
+
+.compilation4 div img{
+    padding-right: 30px;
+    background: none;
+}
+
+
+.compilation4{
+    display: flex;
+    background: none;
+    margin-bottom: 37px;
+}
+
+.compilation4 div{
+    background: none;
+}
+
+
+.compilation button:hover{
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px; 
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #040A0A;
+    background: #43FFD2;
+
+
+}
+
+
+.footer{
+    width: 1440px;
+    height: 337px;
+    background: black;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 200px;
+}
+
+.main-footer{
+    display: flex;
+    background:rgb(0, 0, 0) ;
+    width: 1102px;
+    margin: 0 auto;
+    height: 233px;
+
+}
+
+.main-footer h6{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #43FFD2;
+    background: black;
+    margin-top: 30px;
+}
+.foot1{
+    width: 244px;
+    background: black;
+    margin-right: 41px;
+    margin-top: 83px;
+
+}
+
+
+.foot1 img{
+    background: black;
+}
+
+.foot1 p{
+    background: black;
+    margin-left: 0px;
+    color: white;
+    width: 244px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.foot2{
+    background: black;
+    width: 129px;
+    margin-right: 61px;
+
+}
+
+.foot2 li, .foot3 li{
+    list-style-type: none;
+    margin-left: 0px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: black;
+
+}
+
+.foot3{
+    background: black;
+    margin-right: 100px;
+}
+
+.main-footer a li:hover{
+    color:#D978AC;
+}
+
+.foot4{
+    background: black;
+    margin-right: 31px;
+}
+
+.foot4 h6, a{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #43FFD2;
+    margin-bottom: 20px;
+    background: black;
+
+}
+
+.main-footer a:hover{
+    color:#D978AC;
+}
+
+.foot5{
+    width: 246px;
+    background: black;
+    margin-top: 30px;
+}
+
+.foot5 a{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #43FFD2;
+    margin-top: 20px;
+}
+
+.foot5 p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 0px;
+    padding-top:6px;
+    background: black;
+}
+
+
+.foot-logo{
+    position: absolute;
+    top:30px;
+}
+
+.foot5 div{
+    position: relative;
+    top:38px;
+    background: black;
+}
+
+.foot5 div img{
+    position: absolute;
+    background: black;
+}
+
+.wats{
+    left: 50px;
+}
+
+.tel{
+    left: 100px;
 }
