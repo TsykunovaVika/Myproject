@@ -196,9 +196,11 @@ h1::before{
     right: 20px;
 }
 
+
 .dws-menu a:focus::after{
     content: url('img/minus.svg');
 }
+
 
 .footer{
     width: 1440px;
