@@ -675,6 +675,9 @@ h2{
     min-width: 350px;
     background: none;
     margin-right: 30px;
+}
+
+.slider-item button{
 
 }
 .slider-item img{
@@ -729,6 +732,33 @@ h2{
     color: #FFFFFF;
     margin-top: 10px;
 
+}
+.slider-item button:hover{
+    background-color: #7D2253;
+    color: white;
+}
+.slider-item-1 button:hover{
+    background-color: #7D2253;
+    color: white;
+}
+.slider-item button:active{
+    background-color: #43FFD2;
+    color: black;
+}
+.slider-item-1 button:active{
+    background-color: #43FFD2;
+    color: black;
+}
+
+.slider-item a, .slider-item-1 a{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .slider-item-1 button{

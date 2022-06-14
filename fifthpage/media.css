@@ -220,6 +220,10 @@
     .harmony{
         display: none;
     }
+    .adapt_logo{
+        display: block;
+        left: 230px;
+    }
 }
 @media screen and (max-width:500px){
     .contaiiner{
@@ -281,6 +285,10 @@
     }
     .inst{
         left: 150px;
+    }
+    .adapt_logo{
+        display: block;
+        left: 190px;
     }
 
 }
