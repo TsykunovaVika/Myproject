@@ -1,0 +1,286 @@
+@media all and (max-width:1240px){
+    .contaiiner{
+        width: 1240px;
+    }  
+    .wrapper{
+        width: 1240px;
+    }  
+    .header{
+        width: 1240px;
+    }
+    .young {
+        width: 747px;
+        margin-left: -250px;
+    }
+    .footer{
+        width: 1240px;
+    }
+    .header li{
+        margin-left: -8px;
+    }
+    #tel-head{
+        margin-left: 20px;
+        margin-top: 27px;
+    }
+}
+@media screen and (max-width:1080px){
+    .contaiiner{
+        width: 1080px;
+    }  
+    .wrapper{
+        width: 1080px;
+    }  
+    .header{
+        width: 1080px;
+    }
+    .young {
+        width: 747px;
+        margin-left: -340px;
+    }
+    .footer{
+        width: 1080px;
+    }
+    .main-footer{
+        width:1080px;
+    }
+    .header li{
+        margin-left: -10px;
+    }
+    .info{
+        width: 1080px;
+    }
+    .harmony{
+        margin-left: 20px;
+    }
+    .harmony h4{
+        font-size: 40px;
+        word-wrap:break-word;
+    }
+    .foot1{
+        margin-left: 10px;
+    }
+    .logo1{
+        margin-left: -100px;
+    }
+    .guarantee{
+        margin-left: -100px;
+    }
+    .order{
+        margin-left: -100px;
+    }
+}
+@media screen and (max-width:920px){
+    #tel-head{
+        display: none;
+    }
+    .contaiiner{
+        width: 920px;
+    }  
+    .wrapper{
+        width: 920px;
+    }  
+    .header{
+        width: 920px;
+    }
+    .young {
+        width: 747px;
+        margin-left: -340px;
+    }
+    .footer{
+        width: 920px;
+    }
+    .main-footer{
+        width:920px;
+    }
+    .info{
+        width: 920px;
+    }
+    .foot3{
+        display: none;
+    }
+    .logo1{
+        margin-left: -50px;
+    }
+    .ellipse45{
+        display: none;
+    }
+    .guarantee{
+        margin-left: -40px;
+    }
+    .guarantee h3{
+        margin-left: 350px;
+    }
+    .order h3{
+        margin-left: 250px;
+    }
+    .order ul{
+        margin-left: -170px;
+    }
+    .harmony h4{
+        margin-left: 170px;
+    }
+}
+@media screen and (max-width:780px){
+    .contaiiner{
+        width: 780px;
+    }  
+    .wrapper{
+        width: 780px;
+    }  
+    .header{
+        width: 780px;
+    }
+    .young {
+        width: 400px;
+        height: 470px;
+        margin-top: -70px;
+        margin-left: -200px;
+    }
+    .footer{
+        width: 780px;
+    }
+    .main-footer{
+        width:780px;
+    }
+    .info{
+        width: 780px;
+    }
+    .guarantee h3{
+        margin-left: 90px;
+    }
+    .guarantee p{
+        margin-left: 90px;
+        width: 600px;
+    }
+    .order h3{
+        margin-left: 150px;
+    }
+    .order ul{
+        margin-left: -270px;
+    }
+    .harmony h4{
+        margin-left: 70px;
+        margin-top: -90px;
+    }
+    .harmony p{
+        margin-left: 70px;
+    }
+
+    .foot2{
+        display: none;
+    }
+    .logo1{
+        margin-left: -150px;
+    }
+    .header li{
+        margin-left: -6px;
+    }
+}
+@media screen and (max-width:600px){
+    .contaiiner{
+        width: 600px;
+    }  
+    .wrapper{
+        width: 600px;
+    }  
+    .header{
+        width: 600px;
+    }
+    .young {
+        width: 400px;
+        height: 470px;
+        margin-top: -70px;
+        margin-left: -200px;
+    }
+    .footer{
+        width: 600px;
+    }
+    .main-footer{
+        width:600px;
+    }
+    .info{
+        width: 600px;
+    }
+    .guarantee p{
+        margin-left: 90px;
+        width: 500px;
+    }
+    .Flower_1{
+        width: 540px;
+    }
+    .young {
+        width: 400px;
+        height: 470px;
+        margin-top: -70px;
+        margin-left:-320px;
+    }
+    .logo1, .header li{
+        display: none;
+    }
+    .harmony{
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .contaiiner{
+        width: 500px;
+    }  
+    .wrapper{
+        width: 500px;
+        top: -30px;
+    }  
+    .header{
+        width: 500px;
+    }
+    .young {
+        width: 400px;
+        height: 470px;
+        margin-top: -70px;
+        margin-left: -390px;
+    }
+    .footer{
+        width: 500px;
+        height: 500px;
+    }
+    .main-footer{
+        width:500px;
+    }
+    .info{
+        width: 500px;
+    }
+    h3{
+        margin-left: 40px;
+    }
+
+    h3::after{
+        display: none;
+    }
+    .guarantee p{
+        margin-left: 90px;
+        width: 400px;
+    }
+    .foot1{
+        display: none;
+    }
+    .main-footer{
+        display: block;
+    }
+    .foot4{
+        text-align: center;
+        margin-left: 30px;
+    }
+    .foot5{
+        text-align: center;
+        margin-left: 130px;
+    }
+    .Flower_1{
+        width: 480px;
+    }
+    .foot5 div{
+        left: 10px;
+    }
+    .inst{
+        left: 150px;
+    }
+
+}
