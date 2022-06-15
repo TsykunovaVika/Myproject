@@ -709,19 +709,46 @@ h2{
 .slider-next{
     background: none;
     position: absolute;
-    top: 2810px;
+    margin-left: -208px;
     left: 1180px;
 }
 
 .slider-prev{
     background: none;
     position: absolute;
-    top: 2810px;
     left: 626px;
+    margin-left: -170px;
+}
+.slider-button{
+    position: relative;
+    top: -890px;
+    left: -3pc;
+    background: none;
+}
+.slider-button img{
+    background: none;
 }
 button{
     background: none;
 }
+
+.slider-button button{
+    text-decoration: none;
+    border: none;
+}
+
+.slider-button button:hover{
+    background: #7D2253;
+    border-radius: 50px;
+    padding: 5px 3px 8px 3px;
+}
+
+button{
+    
+}
+
+
+
 
 
 
