@@ -502,5 +502,8 @@
         margin-left: 40px;
         background: none;
     }
+    .burger-menu{
+        display: block;
+    }
 }
 

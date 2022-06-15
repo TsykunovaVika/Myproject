@@ -739,7 +739,7 @@ button{
 
 .slider-button button:hover{
     background: #7D2253;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 5px 3px 8px 3px;
 }
 

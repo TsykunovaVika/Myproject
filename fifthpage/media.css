@@ -224,6 +224,9 @@
         display: block;
         left: 230px;
     }
+    .burger-menu{
+        display: block;
+    }
 }
 @media screen and (max-width:500px){
     .contaiiner{

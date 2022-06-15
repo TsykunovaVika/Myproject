@@ -342,5 +342,8 @@
         display: block;
         left: 190px;
     }
+    .burger-menu{
+        display: block;
+    }
 }
 
