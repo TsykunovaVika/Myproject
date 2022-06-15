@@ -235,6 +235,7 @@
     }  
     .header{
         width: 500px;
+        height: 100px;
     }
     .young {
         width: 400px;
@@ -289,6 +290,9 @@
     .adapt_logo{
         display: block;
         left: 190px;
+    }
+    .main-footer{
+        position: absolute;
     }
 
 }

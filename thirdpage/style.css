@@ -367,6 +367,27 @@ top:30px;
 .tel{
     left: 100px;
 }
+.adapt_logo{
+    position: absolute;
+    background: none;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 10px;
+    left: 200px;
+    text-align: center;
+}
+.adapt_logo h6{
+    background: none;
+}
+.adapt_logo{
+    display: none;
+}
 
 
 

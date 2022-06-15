@@ -401,4 +401,106 @@
 
 }
 
-/* ---------media(500) не отрабатывает----------- */
+@media all and (max-width:500px){
+    .container{
+        width: 500px;
+    }
+    .header{
+        width: 500px;
+    }
+    .wrapper{
+        width: 500px;
+    }
+    .footer{
+        width: 500px;
+        top: -2484px;
+        height: 500px;
+    }
+    .info{
+        width: 500px;
+    }
+    .payment{
+        width: 500px;
+    }
+    .main-footer{
+        width: 500px;
+    }
+    .methods{
+        width: 500px;
+    }
+    .clients{
+        width: 500px;
+    }
+    .main-footer{
+        display:block;
+        position: absolute;
+    }
+    .foot1{
+        display: none;
+    }
+    .foot4{
+        display: block;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .foot5{
+        text-align: center;
+        margin-left: 130px;
+    }
+    .logo1{
+        display: none;
+    }
+    .header li{
+        display: none;
+    }
+    .adapt_logo{
+        display: block;
+        left: 190px;
+    }
+    .info h1, h2{
+        font-size: 50px;
+    }
+    
+    .info h2{
+        margin-top: -30px;
+        margin-left: 200px;
+        background: none;
+    }
+    .clients span{
+        background: none;
+    }
+    .clients{
+        margin-left: -40px;
+    }
+    .methods {
+        display: block;
+        }
+    .methods div{
+        left: 0px;
+        }
+    .methods div:nth-child(2){
+            left:146px;
+        }
+    .methods div:last-child{
+            left:146px;
+        }
+    .methods div{
+            left:146px;
+            }
+    .ellipse5{
+            display: none;
+        }
+    .payment h6{
+        margin-left: 150px;}
+    .terms {
+            width: 500px;
+            margin-top: 40px;
+        }
+    .dop{
+        width: 400px;
+        height: 1252px;
+        margin-left: 40px;
+        background: none;
+    }
+}
+

@@ -246,6 +246,7 @@ h2{
 .main-catalog{
     margin-top: 196px;
     background: none;
+    margin-left: -250px;
 }
 
 .filters{
@@ -733,4 +734,63 @@ button:hover{
 
 .tel{
     left: 100px;
+}
+
+.adapt_logo{
+    position: absolute;
+    background: none;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 10px;
+    left: 200px;
+    text-align: center;
+}
+.adapt_logo h6{
+    background: none;
+}
+.adapt_logo{
+    display: none;
+}
+details summary{
+
+    background: none;
+    color: #43FFD2;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+details .block-buttons button{
+    border: 0.5px solid #FFFFFF;
+    border-radius: 40px;
+    background: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 11px 16px;
+    margin-bottom: 10px;
+    background: none;
+    margin-right: 4px;
+    background: none;
+}
+
+details {
+    display: none;
 }
