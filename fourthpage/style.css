@@ -246,7 +246,6 @@ h2{
 .main-catalog{
     margin-top: 196px;
     background: none;
-    margin-left: -250px;
 }
 
 .filters{
@@ -363,42 +362,43 @@ h2{
     padding-left: 16px;
 }
 
-.slider{
+.number{
+    width: 233px;
+}
+
+.range{
     background: none;
-    padding-top: 20px;
-    padding-left: 16px;
-    width: 215px;
+    width: 233px;
+    padding-top: 50px;
+    padding-left: 5px;
     position: relative;
 }
 
-output{
+.range > input[type="range"]{
+    position: absolute;
+    bottom: 0;
+    background: url('img/Line\ 15.svg');
+    border-radius: 50px;
+    height: 5px;
+    background-color: #43FFD2;
+}
+
+.range > .range-num{
+    margin-bottom: 5px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
     background: none;
     color: #43FFD2;
-    position: absolute;
-    left: 5px;
-    top: 40px;
 }
-
-#fader{
-    position: relative;
-    left: 3px;
-    top: 10px;
-    width: 215px;
+.range input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #43FFD2;
 
 }
 
-
-.slider p:last-child{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-top: 10px;
-}
 .form4{
     padding-top: 20px;
     padding-left: 16px;
@@ -417,7 +417,7 @@ output{
     padding: 16px 54px;
     background: none;
     margin-top: 20px;
-    margin-left: 16px;
+    margin-left: 10px;
 }
 
 button:hover{
@@ -794,3 +794,4 @@ details .block-buttons button{
 details {
     display: none;
 }
+

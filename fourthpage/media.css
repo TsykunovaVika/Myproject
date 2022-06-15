@@ -45,9 +45,6 @@
     .third-img{
         position: absolute;
     }
-    .main-catalog{
-        margin-left: -200px;
-    }
     .street{
         margin-right: 100px;
     }
@@ -123,6 +120,15 @@
     .foot4{
         margin-right: 10px;
     }
+    .del-filters{
+        display: block;
+        margin-top: -2900px;
+
+        background: none;
+    }
+    .del-filters .filters{
+        display: block;
+    }
 }
 
 @media screen and (max-width:760px){
@@ -183,11 +189,11 @@
     .header{
         margin-left: -30px;
     }
-    details {
+    /* details {
         display: block;
-        position: relative;
-        top: -400px;
+        top: -2920px;
         background: none;
+        left: 40px;
     }
 
     details .block-buttons{
@@ -198,7 +204,7 @@
     }
     details .filters{
         display: block;
-    }
+    } */
     .compilation{
         width: 750px;
     }
@@ -206,9 +212,9 @@
         width: 730px;
 
     }
-    .summary{
+    /* .summary{
         width: 200px;
-    }
+    } */
     .f-flower{
         width: 760px;
     }

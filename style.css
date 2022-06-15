@@ -546,8 +546,9 @@ h2{
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-left: 31px;
+    padding-left: 50px;
     list-style-type: disc;
+    list-style-position: inside;
 }
 
 .mini2-4 ul li{
@@ -608,7 +609,6 @@ h2{
     right: 0px;
 }
 
-
 .gallery3{
     width: 1110px;
     position: relative;
@@ -618,7 +618,7 @@ h2{
     top:155px;
 }
 
-.gallery3 img, p, h3, span, form, a{
+.gallery3 img, p, h3, form, a{
     background: none;
 
 }
@@ -650,65 +650,32 @@ h2{
     color: #FFFFFF;
     padding-left: 380px;
 }
+/* _________________________________________________________________________slider------------------------------------ */
 
-.wrapper{
-    position: relative;
-    width: 1110px;
-
+.slider-line{
     background: none;
-    margin: 0 auto;
-    top:-513px;
-}
-
-.slider-container{
-    overflow: hidden;
-    background: none;
-}
-
-.slider-track{
+    height: 591px;
+    width: 1050px;
     display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider-wrapper{
+    width: 350px;
+    height: 591px;
+    position: relative;
+    top: -520px;
+    left: 538px;
     background: none;
-    transition: .2s;
-}
-.slider-item{
-    min-width: 350px;
-    background: none;
-    margin-right: 30px;
+    overflow: hidden;
 }
 
-.slider-item button{
-
-}
-.slider-item img{
+.slide img, p, span, button{
     background: none;
 }
-.slider-item span, button{
-    background: none;
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #FFFFFF;
 
-}
-
-.slider-item-1 span, button{
-    background: none;
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-
-}
-
-.slider-item-1 p{
+.slide p{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -717,39 +684,9 @@ h2{
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 10px;
+    background: none;
 }
-
-.slider-item p{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-top: 10px;
-
-}
-.slider-item button:hover{
-    background-color: #7D2253;
-    color: white;
-}
-.slider-item-1 button:hover{
-    background-color: #7D2253;
-    color: white;
-}
-.slider-item button:active{
-    background-color: #43FFD2;
-    color: black;
-}
-.slider-item-1 button:active{
-    background-color: #43FFD2;
-    color: black;
-}
-
-.slider-item a, .slider-item-1 a{
+.slide button{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 700;
@@ -758,40 +695,43 @@ h2{
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
-}
-
-.slider-item-1 button{
-    border: 0.5px solid #FFFFFF;
     padding: 16px 76px;
-    margin-top: 20px;
-}
-
-.slider-item button{
     border: 0.5px solid #FFFFFF;
-    padding: 16px 76px;
-    margin-top: 20px;
-}
-
-.slider-buttons{
-    background: none;
-    position: relative;
-
-}
-.slider-buttons img{
     background: none;
 }
 
-.slider-buttons button{
+
+
+.slider-next img{
+    background: none;
+}
+
+.slider-next{
+    background: none;
     position: absolute;
-    border: none;
-    top: -892px;
-    left: 65px;
+    top: 2810px;
+    left: 1180px;
 }
 
-.slider-buttons .next{
-    top: -892px;
-    left: 1295px;
+.slider-prev{
+    background: none;
+    position: absolute;
+    top: 2810px;
+    left: 626px;
 }
+button{
+    background: none;
+}
+
+
+
+
+
+
+
+/* _________________________________________________________________________slider------------------------------------ */
+
+
 
 .mini3-1{
     width: 1110px;
