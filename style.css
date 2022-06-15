@@ -741,24 +741,15 @@ button{
     background: #7D2253;
     border-radius: 100px;
     padding: 5px 3px 8px 3px;
+    box-shadow: inset 0px 0px 10px #01281F;
 }
 
-button{
-    
+.slider-button button:active{
+    background: #7D2253;
+    box-shadow: inset 0px 0px 30px #01281F;
+
 }
-
-
-
-
-
-
-
-
-
-
 /* _________________________________________________________________________slider------------------------------------ */
-
-
 
 .mini3-1{
     width: 1110px;
