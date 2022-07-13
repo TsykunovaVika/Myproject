@@ -189,22 +189,6 @@
     .header{
         margin-left: -30px;
     }
-    /* details {
-        display: block;
-        top: -2920px;
-        background: none;
-        left: 40px;
-    }
-
-    details .block-buttons{
-        display: block;
-        background: none;
-        width: 500px;
-        margin-top: 30px;
-    }
-    details .filters{
-        display: block;
-    } */
     .compilation{
         width: 750px;
     }
@@ -212,9 +196,6 @@
         width: 730px;
 
     }
-    /* .summary{
-        width: 200px;
-    } */
     .f-flower{
         width: 760px;
     }
@@ -361,16 +342,6 @@
     .main-footer{
         position: absolute;
     }
-    details .block-buttons{
-        display: block;
-        background: none;
-        width: 350px;
-        margin-top: 30px;
-    }
-    details{
-        margin-left: 50px;
-    }
-
     .burger-menu{display: block;}
     
 }

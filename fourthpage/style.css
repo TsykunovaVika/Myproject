@@ -757,44 +757,11 @@ button:hover{
 .adapt_logo{
     display: none;
 }
-details summary{
 
-    background: none;
-    color: #43FFD2;
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.1em;
-    text-decoration-line: underline;
-    text-transform: uppercase;
-    text-decoration: underline;
+details{
+margin-top: -3000px;
+
 }
-
-details .block-buttons button{
-    border: 0.5px solid #FFFFFF;
-    border-radius: 40px;
-    background: none;
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding: 11px 16px;
-    margin-bottom: 10px;
-    background: none;
-    margin-right: 4px;
-    background: none;
-}
-
-details {
-    display: none;
-}
-
 
 /* ---------------------------burger-mrnu------------ */
 
